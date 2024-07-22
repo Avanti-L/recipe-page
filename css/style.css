@@ -1,0 +1,16 @@
+body {
+    background-color: hsl(30, 54%, 90%);
+}
+
+.card {
+    margin: 80px auto;
+    width: 400px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: 10px;
+}
