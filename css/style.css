@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
 body {
     background-color: hsl(30, 54%, 90%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .card {
     margin: 80px auto;
-    width: 400px;
+    width: 500px;
     background-color: hsl(0, 0%, 100%);
     padding: 30px;
     border-radius: 20px;
@@ -13,4 +19,62 @@ body {
 .card-img {
     width: 100%;
     border-radius: 10px;
+}
+
+.preparation-time {
+    background-color:  hsl(330, 100%, 98%);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+h3 {
+    color: hsl(332, 51%, 32%);
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+h1, h2{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: hsl(14, 45%, 36%);
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h1 {
+    color: hsl(24, 5%, 18%);
+    font-size: 30px;
+}
+
+p, li, .col {
+    color: hsl(30, 10%, 34%);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+ol li::marker {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+
+li {
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+hr {
+    color: hsl(30, 18%, 87%);
+}
+
+.col, .col2 {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding-bottom: 10px;
+}
+
+.col2 {
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
 }
