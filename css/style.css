@@ -9,8 +9,8 @@ body {
 }
 
 .card {
-    margin: 80px auto;
-    width: 650px;
+    margin: 100px auto;
+    width: 700px;
     background-color: hsl(0, 0%, 100%);
     padding: 30px;
     border-radius: 16px;
@@ -52,7 +52,7 @@ h1 {
 
 p, li, .col {
     color: hsl(30, 10%, 34%);
-    font-size: 14px;
+    /* font-size: 14px; */
     font-weight: 400;
 }
 
